@@ -120,10 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "**Hey**, __I am using__ 🌀 **Bot_Sinick** 🌀\n\n"
-        "      __Thanks For Using me__\n\n"
-        "🌀 **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
-        "🌀 **Repo :** [Bot_Sinick](https://github.com/ManusiaRakitan/Kampang-Bot)\n"
+        "╭❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇╮🌀╭❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇╮\n \n[┣━•━─[ B🌀T°KAMPANG ]─━•━┫](https://github.com/ManusiaRakitan/Kampang-Bot) \n \n╰❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇╯🌀╰❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇❇╯\n     \n"
     )
 
 
