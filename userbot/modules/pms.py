@@ -43,7 +43,7 @@ DEF_UNAPPROVED_MSG = (
     " Otomatis Oleh Saya { Penjaga Room Chat }\n"
     " Tunggu Sampai Bos Besar \n"
     f" `{DEFAULTUSER}` Ngebaca Pesan Lo\n"
-    "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
+    "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n")
 
 # =================================================================
 
