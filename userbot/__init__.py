@@ -412,7 +412,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Please Use Only With .help Command",
-                    text="{}\nTotal loaded Modules: {}\n               \n🐨 **MODULE INFO KAMPANG** 🐨\n".format(
+                    text="{}\nTotal loaded Modules: {}\n               \n🌀 **MODULE INFO EXOR** 🌀\n".format(
                         "🌀Sinick🌀 modules helper",
                         len(dugmeler),
                     ),
