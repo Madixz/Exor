@@ -120,9 +120,9 @@ async def pingme(pong):
 
 CMD_HELP.update(
     {"ping": "`.ping`\
-    \nUsage: Shows how long it takes to ping your bot.\
+    \nUsage: Untuk menunjukkan ping userbot.\
     \n\n`.speed`\
-    \nUsage: Does a speedtest and shows the results.\
+    \nUsage: Untuk Mengetes kecepatan server userbot.\
     \n\n`.pong`\
-    \nUsage: Shows how long it takes to ping your bot."
+    \nUsage: Sama seperti perintah ping."
      })
