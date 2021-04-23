@@ -151,7 +151,7 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER", ".")
 
 # untuk memberi media pada pmpermit
 PM_PIC = os.environ.get(
-    "https://telegra.ph/file/e659afa39091f773c67b2.jpg", None)
+    "https://telegra.ph/file/07cd6a5824575dad02041.jpg", None)
 
 # untuk perintah .koalalive
 KAMPANG_TEKS_KUSTOM = os.environ.get(
@@ -174,10 +174,10 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "KAMPANG-BOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Exor")
 
 # Bot version
-BOT_VER = os.environ.get("BOT_VER", "Kampang 4.6")
+BOT_VER = os.environ.get("BOT_VER", "Exor 4.6")
 
 # Default .alive username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -187,7 +187,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/57b5bff10eeeb5110c493.mp4"
+    "ALIVE_LOGO") or "https://telegra.ph/file/07cd6a5824575dad02041.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -326,7 +326,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🐨BOT KAMPANG🐨\nMENYALA ANJEEENG```")
+    await bot.send_message(BOTLOG_CHATID, "```🌀EXOR SUDAH AKTIF KONTOL🌀```")
     return
 
 with bot:
@@ -399,7 +399,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [Sinick](https://github.com/Madixz/Exor) modules helper...\nNgentot Yok Anjeng")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -413,7 +413,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded Modules: {}\n               \n🐨 **MODULE INFO KAMPANG** 🐨\n".format(
-                        "🐨BOT KAMPANG🐨 modules helper",
+                        "🌀Sinick🌀 modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -421,22 +421,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "🐨BOT KAMPANG🐨 Helper",
+                    "🌀Sinick🌀 Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "BOT KAMPANG",
+                    "Sinick",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/ManusiaRakitan/Kampang-Bot"),
+                                "https://github.com/Madixz/Exor"),
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/mixiologist")],
+                                "https://t.me/Bo_Sinick")],
                     ],
                     link_preview=False,
                 )
