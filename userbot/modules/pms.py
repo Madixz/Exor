@@ -27,27 +27,24 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    "    APA LU KAMPANG?\n"
-    f"  MAU GANGGUIN BAGINDA `{DEFAULTUSER}` ?\n"
+    "    APA LU ?\n"
+    f"  MAU GANGGUIN BOS BESAR `{DEFAULTUSER}` ?\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
     f"Gua Babu Nya `{DEFAULTUSER}`\n"
     "╾─────────────────────╼\n\n"
 
     "┏▼━━━━━━━━━━━━━━━━━━━▼┓\n"
-    " Baca Kontol\n"
-    " Gausah Spam Ya Anjeng\n"
-    " Lu Bandel?\n"
-    " Gua Sentil Biji Peler Lu\n"
-    " Tungguin Aja Ya Ngentot Sampai Baginda\n"
-    f" `{DEFAULTUSER}` Ngebaca Pesan Elu\n"
+    " Kalau Pengen Di Bales Sama Bos Besar\n"
+    " Panggil Dengan Panggilan Khusus\n"
+    " Cewek : Bby/Sayang\n"
+    " Cowok : Bro/Bang\n"
+    " Jangan Spam Atau Anda Bakal Di Blok\n"
+    " Otomatis Oleh Saya { Penjaga Room Chat }\n"
+    " Tunggu Sampai Bos Besar \n"
+    f" `{DEFAULTUSER}` Ngebaca Pesan Lo\n"
     "┗▲━━━━━━━━━━━━━━━━━━━▲┛\n\n"
 
-    "╾─────────────────────╼\n"
-    "   😡😡KONTOLLLLL 😡😡\n"
-    "─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇─̇\n"
-    f"- 🐨Babu Nya `{DEFAULTUSER}`\n"
-    "- DIKENTOT OLEH 🐨Kampang-BOT🐨")
 # =================================================================
 
 
