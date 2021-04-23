@@ -1,3 +1,6 @@
+# Coded by Koala
+# Recode by @Bot_Sinick
+
 from datetime import datetime
 import time
 from time import sleep
