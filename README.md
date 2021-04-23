@@ -1,2 +1,0 @@
-# Exor
-Ngentot
