@@ -57,7 +57,7 @@
 
 * DENGAN HEROKU:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/ManusiaRakitan/Kampang-Bot/tree/Kampang"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/Madixz/Exor/tree/Sinick"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=flat&logo=heroku" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 
