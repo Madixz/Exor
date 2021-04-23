@@ -2,16 +2,17 @@ from userbot import CMD_HELP, bot
 from telethon import events
 import asyncio
 
+
 @register(outgoing=True, pattern="^.sa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Shalom Aleichem**")
 
+
 @register(outgoing=True, pattern="^.as(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Aleichem Shalom**")
-
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
