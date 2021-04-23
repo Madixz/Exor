@@ -2,6 +2,17 @@ from userbot import CMD_HELP, bot
 from telethon import events
 import asyncio
 
+@register(outgoing=True, pattern="^.sa(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Shalom Aleichem**")
+
+@register(outgoing=True, pattern="^.as(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Aleichem Shalom**")
+
+
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
@@ -71,8 +82,10 @@ async def _(event):
 
 CMD_HELP.update({
     "toxic":
-    "`.sinick1`\
-    \nUsage: minta ngewe.\
+    "`.sa` ; `.as`\
+    \nUsage: Salam Shalom.\
+    \n\n`.sinick1`\
+    \nUsage: Pengen.\
     \n\n`.sinick2`\
-    \nUsage: sangean`"
+    \nUsage: Sange`"
 })
