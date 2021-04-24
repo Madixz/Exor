@@ -40,6 +40,15 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Shalom Aleichem**")
 
+@register(outgoing=True, pattern="^.SA(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Haii Salken Saya {DEFAULTUSER}**")
+    sleep(2)
+    await typew.edit("**Shalom Aleichem**")
+
+
 
 @register(outgoing=True, pattern=r"^\.as(?: |$)(.*)")
 async def typewriter(typew):
@@ -59,6 +68,8 @@ CMD_HELP.update({
 \nUsage: Untuk Menjawab Salam.\
 \n\n`.sa`\
 \nUsage: Salam Shalom.\
+\n\n`.SA`\
+\nUsage: Salam Kenal Dan Salam Shalom.\
 \n\n`.as`\
 \nUsage: Untuk Menjawab Salam."
 })
