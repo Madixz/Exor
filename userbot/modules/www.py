@@ -106,7 +106,6 @@ async def pingme(pong):
     await e.edit("8===✊D💦")
     await e.edit("8==✊=D💦💦")
     await pong.edit("**CROTTTTT PING**")
-    sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**KONTOLL**\n**COROTT** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
