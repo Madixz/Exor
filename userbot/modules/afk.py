@@ -252,5 +252,5 @@ CMD_HELP.update({
     "`.afk` <alasan> bisa <sambil reply sticker/foto/gif/media>\
     \nUsage: Memberi Tahu Kalau Lagi Afk\
     \n\n`.off`\
-    \nUsage: Memberi tahu kalau Master sedang OFFLINE, dan menguubah nama belakang menjadi 【 OFF 】."
+    \nUsage: Memberi tahu kalau Master sedang OFFLINE, dan menguubah nama belakang menjadi 【 OFF 】`"
 })
