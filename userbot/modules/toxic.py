@@ -2,22 +2,6 @@ from userbot import CMD_HELP, bot
 from telethon import events
 import asyncio
 
-# ================= CONSTANT =================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-# ============================================
-
-
-@register(outgoing=True, pattern="^.sa(?: |$)(.*)")
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**Shalom Aleichem**")
-
-
-@register(outgoing=True, pattern="^.as(?: |$)(.*)")
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**Aleichem Shalom**")
-
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
@@ -87,10 +71,8 @@ async def _(event):
 
 CMD_HELP.update({
     "toxic":
-    "`.sa` ; `.as`\
-    \nUsage: Salam Shalom.\
-    \n\n`.sinick1`\
-    \nUsage: Pengen.\
+    "`.sinick1`\
+    \nUsage: pengen.\
     \n\n`.sinick2`\
-    \nUsage: Sange`"
+    \nUsage: sange`"
 })
