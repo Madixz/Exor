@@ -19,7 +19,7 @@ import sys
 import time
 from datetime import datetime
 import psutil
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, bot, KAMPANG_TEKS_KUSTOM
 from userbot.events import register
 
 
@@ -165,7 +165,7 @@ async def bot_ver(event):
 
         await event.edit(
             "`╭►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╮\n "
-            "` 🌀 Exor Version: \n "
+            "` Bot-Kampang🐨 Version: \n "
             f"{verout}"
             "` \n"
             "   Revision: "
@@ -231,20 +231,18 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**♕ ┗┓ {DEFAULTUSER} USERBOT ┏┛ ♕** \n\n"
-        f"┏━━━━━━━━━━━━━━ \n"
-        f"┣ ✥ `Master   : `{DEFAULTUSER} \n"
-        f"┣ ✥ `Username : `@{user.username} \n"
-        f"┣ ✥ `Telethon : `Ver {version.__version__} \n"
-        f"┣ ✥ `Python   : `Ver {python_version()} \n"
-        f"┣ ✥ `Bot Ver  : `{BOT_VER} \n"
-        f"┣ ✥ `Branch   : `{UPSTREAM_REPO_BRANCH} \n"
-        f"┣ ✥ `Modules  : `{len(modules)} Modules \n"
-        f"┣ ✥ `Uptime   : `{uptime} \n"
-        f"┗━━━━━━━━━━━━━━ \n"
-        f"❃ **Owner :** [Bot_Sinick](t.me/Bot_Sinick) \n"
-        f"┗━━━━━━━━━━━━━━ \n"
-    )
+        f"   **╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
+        f"         **☬ BOT_SINICK ☬** \n\n"
+        f"   **╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
+        f"•➣ **Name** :    `{DEFAULTUSER}` \n"
+        f"•➣ **UserName** :   @{user.username} \n"
+        f"•➣ **Telethon** :     `Versi {version.__version__}` \n"
+        f"•➣ **Python**    :        `Versi {python_version()}` \n"
+        f"•➣ **Exor Versi**:    `{BOT_VER}` \n"
+        f"•➣ **Module**       :       `{len(modules)}` \n\n"
+        f"**┏▼━━━━━━━━━━━━━━━━━▼┓**\n"
+        f"    **Owner :** [Bot_Exor](t.me/Bot_Exor) \n"
+        f"┗▲━━━━━━━━━━━━━━━━━▲┛")
 
     if ALIVE_LOGO:
         try:
