@@ -479,6 +479,7 @@ async def _(event):
         await asyncio.sleep(0.5)
         await event.edit("KALIAN SEMUA KONTOLL... 🔥")
 
+
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
 
@@ -514,7 +515,6 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 11])
-
 
 
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
