@@ -91,9 +91,9 @@ async def _(event):
             "`Teruntuk Kamu` ",
             " Hay Cantik, Sudah Lama ",
             " Perasaan Ini Ku SembunyiKan ",
-            " Tapi Sekarang Aku ",
-            " Tak Dapat Menampung Semuanya ",
-            " Semakin Aku Dia Semakin Aku Gelisah ",
+            " Tapi Sekarang ",
+            " Aku Tak Dapat Menampung Semuanya ",
+            " Semakin Aku Diam, Semakin Aku Gelisah ",
             " Hati Ini Menginginkan Dirimu ",
             " Mau Kah Kamu Menjadi PendampingKu?",
         ]
