@@ -7,8 +7,6 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
 
-
-
 @register(outgoing=True, pattern="^.sa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
