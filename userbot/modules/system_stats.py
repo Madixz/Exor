@@ -165,7 +165,7 @@ async def bot_ver(event):
 
         await event.edit(
             "`╭►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╮\n "
-            "` Bot-Kampang🐨 Version: \n "
+            "` 🌀 Exor Version: \n "
             f"{verout}"
             "` \n"
             "   Revision: "
@@ -231,9 +231,9 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"   **╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"       **☬ BOT_SINICK ☬** \n\n"
-        f"   **╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
+        f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
+        f"   **☬ BOT_SINICK ☬** \n\n"
+        f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"**┏▼━━━━━━━━━━━━━━━━━▼┓**\n"
         f"•➣ **Name**          : `{DEFAULTUSER}` \n"
         f"•➣ **UserName**  : @{user.username} \n"
