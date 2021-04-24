@@ -153,11 +153,6 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER", ".")
 PM_PIC = os.environ.get(
     "https://telegra.ph/file/07cd6a5824575dad02041.jpg", None)
 
-# untuk perintah .koalalive
-KAMPANG_TEKS_KUSTOM = os.environ.get(
-    "KAMPANG_TEKS_KUSTOM",
-    "Join Gaes @caritemanhidop")
-
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
