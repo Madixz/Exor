@@ -79,36 +79,34 @@ def speed_convert(size):
         zero += 1
     return f"{round(size, 2)} {units[zero]}"
 
-
 @register(outgoing=True, pattern="^.ping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await e.edit("8✊===D")
-    await e.edit("8=✊==D")
-    await e.edit("8==✊=D")
-    await e.edit("8===✊D")
-    await e.edit("8==✊=D")
-    await e.edit("8=✊==D")
-    await e.edit("8✊===D")
-    await e.edit("8=✊==D")
-    await e.edit("8==✊=D")
-    await e.edit("8===✊D")
-    await e.edit("8==✊=D")
-    await e.edit("8=✊==D")
-    await e.edit("8✊===D")
-    await e.edit("8=✊==D")
-    await e.edit("8==✊=D")
-    await e.edit("8===✊D")
-    await e.edit("8==✊=D")
-    await e.edit("8=✊==D")
-    await e.edit("8===✊D💦")
-    await e.edit("8==✊=D💦💦")
-    await pong.edit("**CROTTTTT PING**")
+    await pong.edit("8✊===D")
+    await pong.edit("8=✊==D")
+    await pong.edit("8==✊=D")
+    await pong.edit("8===✊D")
+    await pong.edit("8==✊=D")
+    await pong.edit("8=✊==D")
+    await pong.edit("8✊===D")
+    await pong.edit("8=✊==D")
+    await pong.edit("8==✊=D")
+    await pong.edit("8===✊D")
+    await pong.edit("8==✊=D")
+    await pong.edit("8=✊==D")
+    await pong.edit("8✊===D")
+    await pong.edit("8=✊==D")
+    await pong.edit("8==✊=D")
+    await pong.edit("8===✊D")
+    await pong.edit("8===✊D💦")
+    await pong.edit("8====D💦💦")
+    await pong.edit("**CROOTTTT PINGGGG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**KONTOLL**\n**COROTT** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
+    await pong.edit(f"**Mengukur**\n**Kecepatan Ngewe** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
+
 
 
 @register(outgoing=True, pattern="^.pong$")
