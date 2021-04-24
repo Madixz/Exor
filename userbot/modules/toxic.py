@@ -74,5 +74,5 @@ CMD_HELP.update({
     "`.sinick1`\
     \nUsage: pengen.\
     \n\n`.sinick2`\
-    \nUsage: sange`"
+    \nUsage: sange."
 })
