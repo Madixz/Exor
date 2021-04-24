@@ -249,8 +249,8 @@ async def _(event):
 
 CMD_HELP.update({
     "afk":
-    "`.afk` [Optional Reason]\
-\nUsage: Fitur Sibuk.\nPesan Otomatis Ketika Anda Di Tag atau Di Reply \
-Berikan Alasan Sibuk Agar Pengguna Telegram Lain Yang Tau Alasan Anda SibukAFK(reason).\n\nFitur AFK Akan Berhenti Ketika Anda Mengirim Pesan Kembali Dimana Saja.\
-"
+    "`.afk` <alasan> bisa <sambil reply sticker/foto/gif/media>\
+    \nUsage: Memberi Tahu Kalau Lagi Afk\
+    \n\n`.off`\
+    \nUsage: Memberi tahu kalau Master sedang OFFLINE, dan menguubah nama belakang menjadi 【 OFF 】."
 })
