@@ -2,6 +2,12 @@ from userbot import CMD_HELP, bot
 from telethon import events
 import asyncio
 
+# ================= CONSTANT =================
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+# ============================================
+
+
+
 
 @register(outgoing=True, pattern="^.sa(?: |$)(.*)")
 async def typewriter(typew):
