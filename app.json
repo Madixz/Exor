@@ -1,7 +1,7 @@
 {
-  "name": "Man-Userbot",
-  "description": "[Man-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+  "name": "Exor",
+  "description": "[Exor] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/07cd6a5824575dad02041.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/mrismanaziz/Man-Userbot",
-  "telegram": "https://t.me/mrismanaziz",
-  "success_url": "https://t.me/mrismanaziz",
+  "repository": "https://github.com/Madixz/Exor",
+  "telegram": "https://t.me/Bot_Sinick",
+  "success_url": "https://t.me/Bot_Sinick",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -70,7 +70,7 @@
     },
     "ALIVE_LOGO": {
       "description": "Gambar dalam module .alive",
-      "value": "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg",
+      "value": "https://telegra.ph/file/07cd6a5824575dad02041.jpg",
       "required": false
     },
     "ANTI_SPAMBOT": {
@@ -96,7 +96,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "✘ i'm using userbot ✘",
+      "value": "🌀 Pengen Ngewe 🌀",
       "required": false
     },
     "ALIVE_TEKS_CUSTOM": {
@@ -109,7 +109,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "isi kota kamu tinggal untuk default module .weather / cuaca",
-      "value": "Jakarta",
+      "value": "Makassar",
       "required": false
     },
     "LOGSPAMMER": {
