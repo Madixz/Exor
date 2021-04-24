@@ -19,7 +19,7 @@ import sys
 import time
 from datetime import datetime
 import psutil
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, bot, KAMPANG_TEKS_KUSTOM
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, StartTime, bot, ALIVE_TEKS_KUSTOM
 from userbot.events import register
 
 
@@ -165,7 +165,7 @@ async def bot_ver(event):
 
         await event.edit(
             "`╭►▻►▻►▻►▻►▻►◄◅◄◅◄◅◄◅◄◅╮\n "
-            "` Bot-Kampang🐨 Version: \n "
+            "` 🌀Exor  Version: \n "
             f"{verout}"
             "` \n"
             "   Revision: "
@@ -231,21 +231,20 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**┣•{KAMPANG_TEKS_KUSTOM}•┫\n"
-        f"   **╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"         **☬ 𝐁𝐎𝐓 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 ☬** \n\n"
-        f"   **╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"•➣ 🐨 **ƙąɱ℘ąŋɠ** :    `{DEFAULTUSER}` \n"
-        f"•➣ 👥 **Uʂҽɾɳαɱҽ** :   @{user.username} \n"
-        f"•➣ 💻 **Tҽɳɠҽɳƚσƚ** :     `Versi {version.__version__}` \n"
-        f"•➣ 🐍 **Pყƚԋσɳ**    :        `Versi {python_version()}` \n"
-        f"•➣ 🌐 **Vҽɾʂι Kαɱραɳɠ**:    `{BOT_VER}` \n"
-        f"•➣ 🗃️ **Mσԃυʅҽ**       :       `{len(modules)}` \n\n"
-        f"**┏▼━━━━━━━━━━━━━━━━━▼┓**\n"
-        f"    🎉 **𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃.   :** [BOT KAMPANG](https://github.com/ManusiaRakitan/Kampang-Bot)\n"
-        f"   🐨 **Grup Official.: ** [Pencet Asu](https://t.me/caritemanhidop)\n"
-        f"    ☬ **ѕυρρσят ву.   :** [KOALA 🐨](https://t.me/manusiarakitann)\n"
-        f"┗▲━━━━━━━━━━━━━━━━━▲┛")
+        f"**♕ ┗┓ {DEFAULTUSER} USERBOT ┏┛ ♕** \n\n"
+        f"┏━━━━━━━━━━━━━━ \n"
+        f"┣ ✥ `Master   : `{DEFAULTUSER} \n"
+        f"┣ ✥ `Username : `@{user.username} \n"
+        f"┣ ✥ `Telethon : `Ver {version.__version__} \n"
+        f"┣ ✥ `Python   : `Ver {python_version()} \n"
+        f"┣ ✥ `Bot Ver  : `{BOT_VER} \n"
+        f"┣ ✥ `Branch   : `{UPSTREAM_REPO_BRANCH} \n"
+        f"┣ ✥ `Modules  : `{len(modules)} Modules \n"
+        f"┣ ✥ `Uptime   : `{uptime} \n"
+        f"┗━━━━━━━━━━━━━━ \n"
+        f"❃ **Owner :** [Bot_Sinick](t.me/Bot_Sinick) \n"
+        f"┗━━━━━━━━━━━━━━ \n"
+    )
 
     if ALIVE_LOGO:
         try:
