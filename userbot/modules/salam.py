@@ -7,6 +7,7 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
+
 @register(outgoing=True, pattern="^.p(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -33,10 +34,12 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Wa'alaikumsalam**")
 
+
 @register(outgoing=True, pattern=r"^\.sa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Shalom Aleichem**")
+
 
 @register(outgoing=True, pattern=r"^\.as(?: |$)(.*)")
 async def typewriter(typew):
