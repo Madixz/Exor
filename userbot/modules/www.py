@@ -79,6 +79,7 @@ def speed_convert(size):
         zero += 1
     return f"{round(size, 2)} {units[zero]}"
 
+
 @register(outgoing=True, pattern="^.ping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
@@ -106,7 +107,6 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**Mengukur**\n**Kecepatan Ngewe** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
-
 
 
 @register(outgoing=True, pattern="^.pong$")
