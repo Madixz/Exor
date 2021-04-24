@@ -7,83 +7,55 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
+@register(outgoing=True, pattern="^.p(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Assalamualaikum Dulu Biar Sopan**")
 
-@register(outgoing=True, pattern='^kntl(?: |$)(.*)')
+
+@register(outgoing=True, pattern=r"^\.pe(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Assalamualaikum Warahmatullahi Wabarakatuh**")
+
+
+@register(outgoing=True, pattern="^.P(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**LU KONTOL**")
-    sleep(3)
-    await typew.edit("`KONTOL KONTOL KONTOL!!!`")
-    sleep(3)
-    await typew.edit("`DASAR KEPALA KONTOL!!!`")
-# Owner @Si_Dian
-
-
-@register(outgoing=True, pattern='^G(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
-    sleep(3)
-    await typew.edit("`NIMBRUNG GOBLOKK!!!`")
-# Owner @Si_Dian
-
-
-@register(outgoing=True, pattern='^.g(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit(f"**JAKA SEMBUNG BAWA GOLOK**")
-    sleep(3)
-    await typew.edit("`NIMBRUNG GOBLOKK!!!`")
-# Owner @Si_Dian
-
-
-@register(outgoing=True, pattern='^P(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit(f"**Hallo KIMAAKK SAYA {DEFAULTUSER}**")
+    await typew.edit(f"**Haii Salken Saya {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`KONTOLLL.....`")
-# Owner @Si_Dian
+    await typew.edit("**Assalamualaikum...**")
 
 
-@register(outgoing=True, pattern='^p(?: |$)(.*)')
+@register(outgoing=True, pattern=r"^\.l(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit(f"**Hallo KIMAKK SAYA {DEFAULTUSER}**")
-    sleep(2)
-    await typew.edit("`KONTOLLL.....`")
-# Owner @Si_Dian
+    await typew.edit("**Wa'alaikumsalam**")
 
-
-@register(outgoing=True, pattern='^L(?: |$)(.*)')
+@register(outgoing=True, pattern=r"^\.sa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("`Astaghfirulloh anda berdosa sekali...`")
-    sleep(1)
-    await typew.edit("`Waallaikumsalam Sayang......`")
-# Owner @Si_Dian
+    await typew.edit("**Shalom Aleichem**")
 
-
-@register(outgoing=True, pattern='^l(?: |$)(.*)')
+@register(outgoing=True, pattern=r"^\.as(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("`Astaghfirulloh anda berdosal sekali...`")
-    sleep(1)
-    await typew.edit("`Waallaikumsalam Sayang.....`")
-# Owner @Si_Dian
+    await typew.edit("**Aleichem Shalom**")
 
 
 CMD_HELP.update({
     "salam":
-    "`P`\
-\nUsage: Untuk Memberi Hujatan.\
-\n\n`L`\
+    "`.p`\
+\nUsage: Assalamualaikum Dulu Biar Sopan.\
+\n\n`.pe`\
+\nUsage: Salam Panjang Dan Lengkap.\
+\n\n`.P`\
+\nUsage: Salam Kenal Dan Salam.\
+\n\n`.l`\
+\nUsage: Untuk Menjawab Salam.\
+\n\n`.sa`\
+\nUsage: Salam Shalom.\
+\n\n`.as`\
 \nUsage: Untuk Menjawab Salam."
 })
