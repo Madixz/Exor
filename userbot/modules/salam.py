@@ -40,6 +40,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Shalom Aleichem**")
 
+
 @register(outgoing=True, pattern="^.SA(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -47,7 +48,6 @@ async def typewriter(typew):
     await typew.edit(f"**Haii Salken Saya {DEFAULTUSER}**")
     sleep(2)
     await typew.edit("**Shalom Aleichem**")
-
 
 
 @register(outgoing=True, pattern=r"^\.as(?: |$)(.*)")
