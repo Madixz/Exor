@@ -104,6 +104,7 @@ async def _(event):
 
             await event.edit(animation_chars[i % 103])
 
+
 @register(outgoing=True, pattern=r"^\.chb(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
