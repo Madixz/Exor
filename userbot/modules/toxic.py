@@ -105,6 +105,18 @@ async def _(event):
             await event.edit(animation_chars[i % 103])
 
 
+@register(outgoing=True, pattern=r"^\.chb$")
+async def repo_is_here(wannasee):
+    await wannasee.edit(
+        f"🌀 **ChBokep :** [Bokeep](https://t.me/joinchat/VYezAmeu_YM5NTQ9)\n"
+    )
+
+
+    
+
+
+
+
 CMD_HELP.update({
     "toxic":
     "`.sinick1`\
