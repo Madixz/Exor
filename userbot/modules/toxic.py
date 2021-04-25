@@ -103,12 +103,11 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 103])
-
-
-@register(outgoing=True, pattern=r"^\.chb$")
-async def repo_is_here(wannasee):
-    await wannasee.edit(
-        f"🌀 **ChBokep :** [Bokeep](https://t.me/joinchat/VYezAmeu_YM5NTQ9)\n"
+@register(outgoing=True, pattern=r"^\.helikopter(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(
+        "[Bokep] (https://t.me/joinchat/VYezAmeu_YM5NTQ9)\n"
     )
 
 
