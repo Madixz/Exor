@@ -159,15 +159,13 @@ async def _(event):
         animation_chars = [
             " 𝕕𝕒𝕣𝕚𝕡𝕒𝕕𝕒 𝕚𝕜𝕦𝕥 𝕥𝕒𝕜𝕖 𝕞𝕖 𝕠𝕦𝕥 𝕞𝕖𝕟𝕕𝕚𝕟𝕘 ",
             " 𝕜𝕒𝕞𝕦 ' 𝕥𝕒𝕜𝕖 𝕞𝕖 𝕥𝕠 𝕪𝕠𝕦𝕣 𝕙𝕖𝕒𝕣𝕥 ' ",
-            ]
+        ]
 
         for i in animation_ttl:
 
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 103])
-
-
 
 
 CMD_HELP.update({
