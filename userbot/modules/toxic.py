@@ -104,6 +104,7 @@ async def _(event):
 
             await event.edit(animation_chars[i % 103])
 
+
 @bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
 async def _(event):
 
@@ -127,8 +128,8 @@ async def _(event):
             " Cinta sejati memandang kelemahan lalu dijadikan kelebihan untuk selalu mencintai ",
             " Merelakan, melepaskan bukan sekadar mengurai ikatan. Tetap akan ada sisa yang tertinggal. Selesaikan dan mulailah yang baru. ",
             " Cinta adalah kondisi di mana kebahagiaan orang lain sangat penting untukmu sendiri ",
-            " Aku mencintaimu karena hal-hal gelap tertentu harus dicintai, secara rahasia, antara bayangan dan jiwa ",            
-            ]
+            " Aku mencintaimu karena hal-hal gelap tertentu harus dicintai, secara rahasia, antara bayangan dan jiwa ",
+        ]
 
         for i in animation_ttl:
 
@@ -137,9 +138,7 @@ async def _(event):
             await event.edit(animation_chars[i % 103])
 
 
-
 @
-
 CMD_HELP.update({
     "toxic":
     "`.sinick1`\
