@@ -104,6 +104,41 @@ async def _(event):
 
             await event.edit(animation_chars[i % 103])
 
+@bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+async def _(event):
+
+    if event.fwd_from:
+
+        return
+
+    animation_interval = 3
+
+    animation_ttl = range(0, 103)
+
+    input_str = event.pattern_match.group(1)
+
+    if input_str == "sinick4":
+
+        await event.edit(input_str)
+
+        animation_chars = [
+            "`KataCinta` ",
+            " Lebih baik dibenci apa adanya dirimu daripada dicintai karena bukan dirimu ",
+            " Cinta sejati memandang kelemahan lalu dijadikan kelebihan untuk selalu mencintai ",
+            " Merelakan, melepaskan bukan sekadar mengurai ikatan. Tetap akan ada sisa yang tertinggal. Selesaikan dan mulailah yang baru. ",
+            " Cinta adalah kondisi di mana kebahagiaan orang lain sangat penting untukmu sendiri ",
+            " Aku mencintaimu karena hal-hal gelap tertentu harus dicintai, secara rahasia, antara bayangan dan jiwa ",            
+            ]
+
+        for i in animation_ttl:
+
+            await asyncio.sleep(animation_interval)
+
+            await event.edit(animation_chars[i % 103])
+
+
+
+@
 
 CMD_HELP.update({
     "toxic":
