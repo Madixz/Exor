@@ -135,7 +135,7 @@ async def _(event):
 
             await asyncio.sleep(animation_interval)
 
-            await event.edit(animation_chars[i % 103])
+            await event.edit(animation_chars[i % 110])
 
 
 CMD_HELP.update({
