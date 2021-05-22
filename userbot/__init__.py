@@ -100,7 +100,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Madixz/Exor.git")
+    "https://github.com/Madixz/BotSinick.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Sinick")
 
@@ -169,10 +169,10 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Exor")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "BotSinick")
 
 # Bot version
-BOT_VER = os.environ.get("BOT_VER", "Exor 4.6")
+BOT_VER = os.environ.get("BOT_VER", "BotSinick 4.6")
 
 # Default .alive username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -321,7 +321,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```🌀EXOR SUDAH AKTIF KONTOL🌀```")
+    await bot.send_message(BOTLOG_CHATID, "```❁BotSinick Sudah Aktif Kontol❁```")
     return
 
 with bot:
@@ -394,7 +394,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [Sinick](https://github.com/Madixz/Exor) modules helper...\nNgentot Yok Anjeng")
+                await event.reply("I'm [Sinick](https://github.com/Madixz/BotSinick) modules helper...\nNgentot Yok Anjeng")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -407,7 +407,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Please Use Only With .help Command",
-                    text="{}\nTotal loaded Modules: {}\n               \n🌀 **MODULE INFO EXOR** 🌀\n".format(
+                    text="{}\nTotal loaded Modules: {}\n               \n❁ **MODULE INFO BOTSINICK** ❁\n".format(
                         "🌀Sinick🌀 modules helper",
                         len(dugmeler),
                     ),
@@ -428,7 +428,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/Madixz/Exor"),
+                                "https://github.com/Madixz/BotSinick"),
                             custom.Button.url(
                                 "Support",
                                 "https://t.me/Bo_Sinick")],
