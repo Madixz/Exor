@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
 # you may not use this file except in compliance with the License.
 #
-# Recode by @mrismanaziz
+# Recode by @Bot_Sinick
 # @SharingUserbot
 """ Userbot module for keeping control who PM you. """
 
@@ -28,9 +28,13 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    f"Hallo, Saya **{DEFAULTUSER}-Userbot Private Security Protocol**\n\n"
-    f"__SAYA ADALAH BOT YANG MENJAGA ROOM CHAT INI MOHON JANGAN MELAKUKAN SPAM SAMPAI 8 CHAT, KARNA SAYA OTOMATIS AKAN MEMBLOKIR ANDA, TUNGGU SAMPAI__ **{DEFAULTUSER}** __MENERIMA PESAN ANDA__\n\n"
-    "✣ `PESAN OTOMATIS BY MAN-USERBOT` ✣\n")
+     f"✘ WARNING ✘ \n\n"
+
+     f"Jangan Spam 8x Chat Bakal Di Blok Otomatis Oleh Saya { Penjaga Room Chat } Tunggu Sampai Bos Besar {DEFAULTUSER} Menyetujui, \n\n"
+
+     f"Kalau Penting Bisa Di Jelaskan Kepentingannya. \n\n"
+
+     f" `By. BotSinick` \n")
 # =================================================================
 
 
