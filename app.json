@@ -1,6 +1,6 @@
 {
-  "name": "Exor",
-  "description": "[Exor] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "name": "BotSinick",
+  "description": "[BotSinick] userbot Telegram modular yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/07cd6a5824575dad02041.jpg",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Madixz/Exor",
+  "repository": "https://github.com/Madixz/BotSinick",
   "telegram": "https://t.me/Bot_Sinick",
   "success_url": "https://t.me/Bot_Sinick",
   "stack": "container",
